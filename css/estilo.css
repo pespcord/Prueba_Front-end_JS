@@ -1,0 +1,124 @@
+/*Header*/
+.fab.fa-twitter-square {
+	font-size: 9em;
+	color: #8ad6e2;
+    margin-right: 0.2em;
+}
+.twitter-head{
+	display: inline-block;
+}
+
+.twitter-head h1{
+	font-size: 3em;
+	color: #333;
+
+}
+.twitter-head h2{
+	font-size: 2em;
+	color: #999;
+	font-weight: lighter;
+
+}
+.sombra {
+	-webkit-box-shadow: 0px 17px 23px -12px rgba(171,171,171,1);
+	-moz-box-shadow: 0px 17px 23px -12px rgba(171,171,171,1);
+	box-shadow: 0px 17px 23px -12px rgba(171,171,171,1);
+    margin-bottom: 20px;
+}
+
+/*Main*/
+
+body {
+	background-color: #b9c9cc;
+	margin:0;
+}
+.bg-color {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+/*formulario*/
+.twitter-instruccion {
+	padding: 10px;
+	color: #555;
+	font-size: 1.6em;
+	font-weight: lighter;
+	margin: 40px 0 10px;
+}
+.twitter-texto {
+	margin: 0 0 20px 0;
+    font-size: 1.5em;
+    color: #4e828a;
+    width: 90%;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border: 1px solid #b9c9cd;
+    border-radius: 5px;
+    padding: 23px;
+}
+.botonTwitter {
+	background-color: #4e828a;
+    padding: 10px 20px ;
+    color: #fff;
+    border-radius: 2px;
+   margin-bottom: 40px;
+}
+
+/*tweet personal*/
+.tweet-personal {
+	width: 80%;
+	background-color: #eaeaea;
+	border: 1px solid #b9c9cc;
+	border-radius: 5px;
+	margin: 0;
+	display: inline-flex;
+
+}
+.tweet-personal-txt {
+	color: #4e818a;
+	font-size: 1.3em;
+	padding: 20px;
+	font-style: italic;
+}
+/*.fas.fa-heart{
+	font-size: 2em;
+    color: #dc4475;
+
+}*/
+
+.float {
+	float: right;
+}
+.likeable{
+	font-size: 2em;
+    color: #dc4475;
+	background-color: transparent;
+    border: none;
+}
+.likeado{
+	font-size: 2em;
+    color: #97C9CD;
+
+}
+.tweet-dinamico {
+    margin-bottom: 2em;
+}
+.contador {
+	font-size: 0.8em;
+	color: #333;
+	background-color: #eaeaea;
+	padding: 5px;
+	font-weight: bold;
+}
+.eliminar-tweet {
+	font-size: 0.8em;
+    color: #4e818a;
+    background-color: transparent;
+    border: none;
+}
+
+.eliminar-tweet:hover {
+    color: #dd4474;
+    transition: 0.5s;
+}
+
